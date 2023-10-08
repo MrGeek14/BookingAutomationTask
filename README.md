@@ -1,5 +1,6 @@
 # BookingAutomationTask
 This task implemented using
+
 Selenium webdriver
 Data Driven Framework
 Maven to manage dependencies
@@ -8,6 +9,7 @@ Page Object Model design pattern
 Apache-POI to handle excel 
 
 Utilities summary
+
 ElementActions class:
 Include wrappers to handle element actions with help of waiting conditions
 
