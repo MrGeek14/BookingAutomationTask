@@ -1,27 +1,25 @@
 # BookingAutomationTask
-This task implemented using
+## This task implemented using
+- Selenium webdriver
+- Data Driven Framework
+- Maven to manage dependencies
+- TestNG as testing framework
+- Page Object Model design pattern
+- Apache-POI to handle excel 
 
-Selenium webdriver
-Data Driven Framework
-Maven to manage dependencies
-TestNG as testing framework
-Page Object Model design pattern
-Apache-POI to handle excel 
+## Utilities summary
+### ElementActions class:
+- Include wrappers to handle element actions with help of waiting conditions
 
-Utilities summary
+### ConfigReader:
+- contain method to Read configuration property file that contains configuration such as browser used, wait time, url and file paths
 
-ElementActions class:
-Include wrappers to handle element actions with help of waiting conditions
+### ExcelReader:
+- contain method to read Excel file has test data
 
-ConfigReader:
-contain method to Read configuration property file that contains configuration such as browser used, wait time, url and file paths
+### BookingCalender:
+- Has two methods one to set check in date to be current date and the other one to set check out date to be after month
 
-ExcelReader:
-contain method to read Excel file has test data
-
-BookingCalender:
-Has two methods one to set check in date to be current date and the other one to set check out date to be after month
-
-SwitchToNewWindow:
-Has method to handle switching to new opened windows
+### SwitchToNewWindow:
+- Has method to handle switching to new opened windows
 
